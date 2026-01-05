@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/learnScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/learnTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hướng dẫn chơi Cờ Vua"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Tốt -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/imgPawn"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/tot_trang"
+                android:contentDescription="Quân Tốt Trắng" />
+
+            <TextView
+                android:id="@+id/textPawn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingStart="16dp"
+                android:text="Tốt: di chuyển thẳng 1 ô, lần đầu có thể đi 2 ô, ăn chéo 1 ô."
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Mã -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/imgKnight"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ma_trang"
+                android:contentDescription="Quân Mã Trắng" />
+
+            <TextView
+                android:id="@+id/textKnight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingStart="16dp"
+                android:text="Mã: di chuyển hình chữ L (2+1), có thể nhảy qua quân khác."
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Tượng -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/imgBishop"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/tuong_trang"
+                android:contentDescription="Quân Tượng Trắng" />
+
+            <TextView
+                android:id="@+id/textBishop"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingStart="16dp"
+                android:text="Tượng: di chuyển chéo không giới hạn số ô, chỉ trên màu ban đầu."
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Xe -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/imgRook"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/xe_trang"
+                android:contentDescription="Quân Xe Trắng" />
+
+            <TextView
+                android:id="@+id/textRook"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingStart="16dp"
+                android:text="Xe: di chuyển thẳng theo hàng hoặc cột, không giới hạn số ô."
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Hậu -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/imgQueen"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/hau_trang"
+                android:contentDescription="Quân Hậu Trắng" />
+
+            <TextView
+                android:id="@+id/textQueen"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingStart="16dp"
+                android:text="Hậu: kết hợp di chuyển của Xe và Tượng, thẳng hoặc chéo."
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Vua -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/imgKing"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/vua_trang"
+                android:contentDescription="Quân Vua Trắng" />
+
+            <TextView
+                android:id="@+id/textKing"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingStart="16dp"
+                android:text="Vua: di chuyển 1 ô mọi hướng, có thể nhập thành với Xe."
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Nút Quay lại Main Menu -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBackMenu"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quay lại"
+            android:layout_marginBottom="24dp" />
+    </LinearLayout>
+</ScrollView>

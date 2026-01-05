@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!-- Màu đen 40% để nền tròn hơi tối, làm nổi logo trắng bên trên -->
+    <solid android:color="#66000000"/>
+</shape>
