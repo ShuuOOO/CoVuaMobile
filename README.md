@@ -7,10 +7,10 @@ This project focuses on **game logic implementation**, **object-oriented design*
 
 ## Features
 
-- Full implementation of standard chess rules  
-- Legal move validation, capturing, check and checkmate detection  
-- Clean and intuitive mobile user interface  
-- Well-structured codebase following Object-Oriented Programming (OOP) principles  
+- Basic chess gameplay for two players on the same mobile device
+- Core chess logic implementation including legal move validation, piece capturing, and basic check/checkmate detection
+- Simple and intuitive user interface optimized for mobile screens
+- Clear separation between game logic and UI code for easier readability and maintenance 
 
 ---
 
