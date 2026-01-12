@@ -38,8 +38,14 @@ Before running the project, make sure your environment meets the following requi
 
 ---
 
+### UI
+<img width="1080" height="2400" alt="Screenshot_20260113_001218" src="https://github.com/user-attachments/assets/ff408104-e73c-43ed-b0c3-b5cca2cc69d5" />
+
+---
+
 ### Clone the Repository
 
 ```bash
 git clone https://github.com/ShuuOOO/CoVuaMobile.git
 cd CoVuaMobile
+
