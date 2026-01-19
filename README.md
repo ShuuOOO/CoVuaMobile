@@ -38,14 +38,18 @@ Before running the project, make sure your environment meets the following requi
 
 ---
 
-### Screenshot
-<img width="1080" height="2400" alt="Screenshot_20260113_001218" src="https://github.com/user-attachments/assets/ff408104-e73c-43ed-b0c3-b5cca2cc69d5" />
+### UI
 
----
+The application features a clean and simple user interface designed for mobile devices, focusing on usability and clarity.
 
-### Clone the Repository
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ff408104-e73c-43ed-b0c3-b5cca2cc69d5" width="220"/>
+  <img src="https://github.com/user-attachments/assets/fb8658d1-24d4-4b62-91a7-95802531608d" width="220"/>
+  <img src="https://github.com/user-attachments/assets/fab19194-f652-4ffa-bfda-806aa96f64b9" width="220"/>
+  <img src="https://github.com/user-attachments/assets/0dab99a9-1448-4be9-a531-254b04751dc7" width="220"/>
+</p>
 
-```bash
-git clone https://github.com/ShuuOOO/CoVuaMobile.git
-cd CoVuaMobile
+**Screens:** Main Menu · Game Board · In-Game State · Guide
+
+
 
