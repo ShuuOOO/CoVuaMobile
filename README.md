@@ -51,6 +51,11 @@ The application features a clean and simple user interface designed for mobile d
 
 **Screens:** Main Menu · Game Board · In-Game State · Guide
 
+---
+
+### Demo
+Demo Video: https://youtube.com/shorts/WSAbkBDFlIk?feature=share
+
 
 
 
